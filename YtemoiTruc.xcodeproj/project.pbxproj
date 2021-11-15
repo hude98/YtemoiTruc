@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182AC666F4BEA06931EE454A /* Pods_YtemoiTruc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6B5CD9EDCB6C6C09E28406 /* Pods_YtemoiTruc.framework */; };
+		B26E0CB1270B5764003425CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CB0270B5764003425CE /* AppDelegate.swift */; };
+		B26E0CBA270B5766003425CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26E0CB9270B5766003425CE /* Assets.xcassets */; };
+		B26E0CBD270B5766003425CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26E0CBB270B5766003425CE /* LaunchScreen.storyboard */; };
+		B26E0CDA270B58F1003425CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CC6270B58F1003425CE /* User.swift */; };
+		B26E0CDB270B58F1003425CE /* QRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CC7270B58F1003425CE /* QRData.swift */; };
+		B26E0CDC270B58F1003425CE /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CC9270B58F1003425CE /* RootNavigationController.swift */; };
+		B26E0CDD270B58F1003425CE /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CCA270B58F1003425CE /* OtpViewController.swift */; };
+		B26E0CDE270B58F1003425CE /* ListNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CCB270B58F1003425CE /* ListNewsViewController.swift */; };
+		B26E0CDF270B58F1003425CE /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CCC270B58F1003425CE /* PhoneNumberViewController.swift */; };
+		B26E0CE0270B58F1003425CE /* QrScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CCD270B58F1003425CE /* QrScannerViewController.swift */; };
+		B26E0CE1270B58F1003425CE /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CCF270B58F1003425CE /* UIViewController.swift */; };
+		B26E0CE2270B58F1003425CE /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CD1270B58F1003425CE /* QRScannerView.swift */; };
+		B26E0CE3270B58F1003425CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26E0CD3270B58F1003425CE /* Main.storyboard */; };
+		B26E0CE4270B58F1003425CE /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E0CD5270B58F1003425CE /* CopyLabel.swift */; };
+		B2782FE927100BF700A992A8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FE827100BF700A992A8 /* Network.swift */; };
+		B2782FEB27100C4800A992A8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FEA27100C4800A992A8 /* Key.swift */; };
+		B2782FED27100C5E00A992A8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FEC27100C5E00A992A8 /* Utils.swift */; };
+		B2782FF12710228A00A992A8 /* RoundTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FF02710228A00A992A8 /* RoundTextView.swift */; };
+		B2782FF32710235A00A992A8 /* RoundUIVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FF22710235A00A992A8 /* RoundUIVisualEffectView.swift */; };
+		B2782FF5271025FC00A992A8 /* DetailMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FF4271025FC00A992A8 /* DetailMessageViewController.swift */; };
+		B2782FF9271154DC00A992A8 /* CallDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FF8271154DB00A992A8 /* CallDeviceViewController.swift */; };
+		B2782FFB2711596100A992A8 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FFA2711596100A992A8 /* News.swift */; };
+		B2782FFE27116C2B00A992A8 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FFD27116C2B00A992A8 /* NewsCell.swift */; };
+		B278300127117ED600A992A8 /* SenderTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FFF27117ED500A992A8 /* SenderTextCell.swift */; };
+		B278300227117ED600A992A8 /* MeTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278300027117ED600A992A8 /* MeTextCell.swift */; };
+		B27830042711898900A992A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B27830032711898900A992A8 /* GoogleService-Info.plist */; };
+		B28DA180271AF21300834185 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28DA17F271AF21300834185 /* NotificationService.swift */; };
+		B28DA189271B0EF200834185 /* Linphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28DA188271B0EF200834185 /* Linphone.swift */; };
+		B2A6395C27194C5E009281BC /* SwiftSignalR.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A6395B27194C5E009281BC /* SwiftSignalR.swift */; };
+		B2A6395E271A9939009281BC /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A6395D271A9939009281BC /* PaddingLabel.swift */; };
+		B2A8E6CE271EC70700C20241 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A8E6CD271EC70700C20241 /* NetworkExtension.framework */; };
+		B2A8E6D0271EC71100C20241 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A8E6CF271EC71100C20241 /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35685CEAC1AD3FEB1725E088 /* Pods-YtemoiTruc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YtemoiTruc.release.xcconfig"; path = "Target Support Files/Pods-YtemoiTruc/Pods-YtemoiTruc.release.xcconfig"; sourceTree = "<group>"; };
+		5E6B5CD9EDCB6C6C09E28406 /* Pods_YtemoiTruc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YtemoiTruc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E84E48C33CF3ED10ED6212 /* Pods-YtemoiTruc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YtemoiTruc.debug.xcconfig"; path = "Target Support Files/Pods-YtemoiTruc/Pods-YtemoiTruc.debug.xcconfig"; sourceTree = "<group>"; };
+		B26E0CAD270B5764003425CE /* YtemoiTruc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YtemoiTruc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26E0CB0270B5764003425CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B26E0CB9270B5766003425CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26E0CBC270B5766003425CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B26E0CBE270B5766003425CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26E0CC6270B58F1003425CE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B26E0CC7270B58F1003425CE /* QRData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRData.swift; sourceTree = "<group>"; };
+		B26E0CC9270B58F1003425CE /* RootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
+		B26E0CCA270B58F1003425CE /* OtpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		B26E0CCB270B58F1003425CE /* ListNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNewsViewController.swift; sourceTree = "<group>"; };
+		B26E0CCC270B58F1003425CE /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		B26E0CCD270B58F1003425CE /* QrScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrScannerViewController.swift; sourceTree = "<group>"; };
+		B26E0CCF270B58F1003425CE /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B26E0CD1270B58F1003425CE /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		B26E0CD4270B58F1003425CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B26E0CD5270B58F1003425CE /* CopyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
+		B2782FE827100BF700A992A8 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B2782FEA27100C4800A992A8 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		B2782FEC27100C5E00A992A8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B2782FF02710228A00A992A8 /* RoundTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextView.swift; sourceTree = "<group>"; };
+		B2782FF22710235A00A992A8 /* RoundUIVisualEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundUIVisualEffectView.swift; sourceTree = "<group>"; };
+		B2782FF4271025FC00A992A8 /* DetailMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMessageViewController.swift; sourceTree = "<group>"; };
+		B2782FF8271154DB00A992A8 /* CallDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallDeviceViewController.swift; sourceTree = "<group>"; };
+		B2782FFA2711596100A992A8 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		B2782FFD27116C2B00A992A8 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		B2782FFF27117ED500A992A8 /* SenderTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderTextCell.swift; sourceTree = "<group>"; };
+		B278300027117ED600A992A8 /* MeTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTextCell.swift; sourceTree = "<group>"; };
+		B27830032711898900A992A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B28DA132271AC78000834185 /* YtemoiTruc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YtemoiTruc.entitlements; sourceTree = "<group>"; };
+		B28DA159271AF14800834185 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		B28DA15B271AF14800834185 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		B28DA17D271AF21200834185 /* CustomNotificationServicee.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomNotificationServicee.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28DA17F271AF21300834185 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B28DA181271AF21300834185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28DA188271B0EF200834185 /* Linphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linphone.swift; sourceTree = "<group>"; };
+		B2A6395B27194C5E009281BC /* SwiftSignalR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSignalR.swift; sourceTree = "<group>"; };
+		B2A6395D271A9939009281BC /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		B2A8E6C7271EBBBE00C20241 /* YtemoiTruc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YtemoiTruc-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2A8E6CD271EC70700C20241 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		B2A8E6CF271EC71100C20241 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26E0CAA270B5764003425CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A8E6D0271EC71100C20241 /* ExternalAccessory.framework in Frameworks */,
+				182AC666F4BEA06931EE454A /* Pods_YtemoiTruc.framework in Frameworks */,
+				B2A8E6CE271EC70700C20241 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28DA17A271AF21200834185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559DAC4655BB341A56444464 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73E84E48C33CF3ED10ED6212 /* Pods-YtemoiTruc.debug.xcconfig */,
+				35685CEAC1AD3FEB1725E088 /* Pods-YtemoiTruc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F7C05F5C419BBF1FCD76E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2A8E6CF271EC71100C20241 /* ExternalAccessory.framework */,
+				B2A8E6CD271EC70700C20241 /* NetworkExtension.framework */,
+				5E6B5CD9EDCB6C6C09E28406 /* Pods_YtemoiTruc.framework */,
+				B28DA159271AF14800834185 /* UserNotifications.framework */,
+				B28DA15B271AF14800834185 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B26E0CA4270B5764003425CE = {
+			isa = PBXGroup;
+			children = (
+				B26E0CAF270B5764003425CE /* YtemoiTruc */,
+				B28DA17E271AF21300834185 /* CustomNotificationServicee */,
+				B26E0CAE270B5764003425CE /* Products */,
+				559DAC4655BB341A56444464 /* Pods */,
+				6F7C05F5C419BBF1FCD76E52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B26E0CAE270B5764003425CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26E0CAD270B5764003425CE /* YtemoiTruc.app */,
+				B28DA17D271AF21200834185 /* CustomNotificationServicee.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26E0CAF270B5764003425CE /* YtemoiTruc */ = {
+			isa = PBXGroup;
+			children = (
+				B2A8E6C6271EBB8400C20241 /* Bringing-header */,
+				B28DA132271AC78000834185 /* YtemoiTruc.entitlements */,
+				B26E0CC5270B58F1003425CE /* Model */,
+				B26E0CC8270B58F1003425CE /* Controller */,
+				B26E0CD0270B58F1003425CE /* View */,
+				B26E0CCE270B58F1003425CE /* Custom UI */,
+				B26E0CD6270B58F1003425CE /* Utils */,
+				B26E0CB0270B5764003425CE /* AppDelegate.swift */,
+				B26E0CB9270B5766003425CE /* Assets.xcassets */,
+				B26E0CBB270B5766003425CE /* LaunchScreen.storyboard */,
+				B26E0CBE270B5766003425CE /* Info.plist */,
+				B27830032711898900A992A8 /* GoogleService-Info.plist */,
+			);
+			path = YtemoiTruc;
+			sourceTree = "<group>";
+		};
+		B26E0CC5270B58F1003425CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FE827100BF700A992A8 /* Network.swift */,
+				B26E0CC6270B58F1003425CE /* User.swift */,
+				B26E0CC7270B58F1003425CE /* QRData.swift */,
+				B2782FFA2711596100A992A8 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B26E0CC8270B58F1003425CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FFC27116C1500A992A8 /* Cell */,
+				B26E0CC9270B58F1003425CE /* RootNavigationController.swift */,
+				B26E0CCD270B58F1003425CE /* QrScannerViewController.swift */,
+				B26E0CCC270B58F1003425CE /* PhoneNumberViewController.swift */,
+				B26E0CCA270B58F1003425CE /* OtpViewController.swift */,
+				B26E0CCB270B58F1003425CE /* ListNewsViewController.swift */,
+				B2782FF4271025FC00A992A8 /* DetailMessageViewController.swift */,
+				B2782FF8271154DB00A992A8 /* CallDeviceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B26E0CCE270B58F1003425CE /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				B26E0CCF270B58F1003425CE /* UIViewController.swift */,
+				B2A6395D271A9939009281BC /* PaddingLabel.swift */,
+				B2782FF02710228A00A992A8 /* RoundTextView.swift */,
+				B2782FF22710235A00A992A8 /* RoundUIVisualEffectView.swift */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		B26E0CD0270B58F1003425CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B26E0CD2270B58F1003425CE /* Storyboard */,
+				B26E0CD1270B58F1003425CE /* QRScannerView.swift */,
+				B26E0CD5270B58F1003425CE /* CopyLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B26E0CD2270B58F1003425CE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B26E0CD3270B58F1003425CE /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B26E0CD6270B58F1003425CE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FEA27100C4800A992A8 /* Key.swift */,
+				B2782FEC27100C5E00A992A8 /* Utils.swift */,
+				B2A6395B27194C5E009281BC /* SwiftSignalR.swift */,
+				B28DA188271B0EF200834185 /* Linphone.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B2782FFC27116C1500A992A8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B278300027117ED600A992A8 /* MeTextCell.swift */,
+				B2782FFF27117ED500A992A8 /* SenderTextCell.swift */,
+				B2782FFD27116C2B00A992A8 /* NewsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B28DA17E271AF21300834185 /* CustomNotificationServicee */ = {
+			isa = PBXGroup;
+			children = (
+				B28DA17F271AF21300834185 /* NotificationService.swift */,
+				B28DA181271AF21300834185 /* Info.plist */,
+			);
+			path = CustomNotificationServicee;
+			sourceTree = "<group>";
+		};
+		B2A8E6C6271EBB8400C20241 /* Bringing-header */ = {
+			isa = PBXGroup;
+			children = (
+				B2A8E6C7271EBBBE00C20241 /* YtemoiTruc-Bridging-Header.h */,
+			);
+			path = "Bringing-header";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26E0CAC270B5764003425CE /* YtemoiTruc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26E0CC1270B5766003425CE /* Build configuration list for PBXNativeTarget "YtemoiTruc" */;
+			buildPhases = (
+				9DB6008CC1E467C1BB3F8438 /* [CP] Check Pods Manifest.lock */,
+				B26E0CA9270B5764003425CE /* Sources */,
+				B26E0CAA270B5764003425CE /* Frameworks */,
+				B26E0CAB270B5764003425CE /* Resources */,
+				30D6535B3AB7D0CD030FAA29 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YtemoiTruc;
+			productName = YtemoiTruc;
+			productReference = B26E0CAD270B5764003425CE /* YtemoiTruc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B28DA17C271AF21200834185 /* CustomNotificationServicee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28DA185271AF21300834185 /* Build configuration list for PBXNativeTarget "CustomNotificationServicee" */;
+			buildPhases = (
+				B28DA179271AF21200834185 /* Sources */,
+				B28DA17A271AF21200834185 /* Frameworks */,
+				B28DA17B271AF21200834185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNotificationServicee;
+			productName = CustomNotificationServicee;
+			productReference = B28DA17D271AF21200834185 /* CustomNotificationServicee.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26E0CA5270B5764003425CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B26E0CAC270B5764003425CE = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+					B28DA17C271AF21200834185 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = B26E0CA8270B5764003425CE /* Build configuration list for PBXProject "YtemoiTruc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B26E0CA4270B5764003425CE;
+			productRefGroup = B26E0CAE270B5764003425CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26E0CAC270B5764003425CE /* YtemoiTruc */,
+				B28DA17C271AF21200834185 /* CustomNotificationServicee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26E0CAB270B5764003425CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26E0CBD270B5766003425CE /* LaunchScreen.storyboard in Resources */,
+				B27830042711898900A992A8 /* GoogleService-Info.plist in Resources */,
+				B26E0CBA270B5766003425CE /* Assets.xcassets in Resources */,
+				B26E0CE3270B58F1003425CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28DA17B271AF21200834185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30D6535B3AB7D0CD030FAA29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YtemoiTruc/Pods-YtemoiTruc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YtemoiTruc/Pods-YtemoiTruc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YtemoiTruc/Pods-YtemoiTruc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB6008CC1E467C1BB3F8438 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YtemoiTruc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26E0CA9270B5764003425CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26E0CDE270B58F1003425CE /* ListNewsViewController.swift in Sources */,
+				B26E0CDD270B58F1003425CE /* OtpViewController.swift in Sources */,
+				B278300227117ED600A992A8 /* MeTextCell.swift in Sources */,
+				B26E0CDA270B58F1003425CE /* User.swift in Sources */,
+				B2A6395E271A9939009281BC /* PaddingLabel.swift in Sources */,
+				B26E0CE1270B58F1003425CE /* UIViewController.swift in Sources */,
+				B2782FE927100BF700A992A8 /* Network.swift in Sources */,
+				B26E0CB1270B5764003425CE /* AppDelegate.swift in Sources */,
+				B2782FFB2711596100A992A8 /* News.swift in Sources */,
+				B28DA189271B0EF200834185 /* Linphone.swift in Sources */,
+				B26E0CDB270B58F1003425CE /* QRData.swift in Sources */,
+				B278300127117ED600A992A8 /* SenderTextCell.swift in Sources */,
+				B26E0CDC270B58F1003425CE /* RootNavigationController.swift in Sources */,
+				B2782FED27100C5E00A992A8 /* Utils.swift in Sources */,
+				B26E0CE4270B58F1003425CE /* CopyLabel.swift in Sources */,
+				B2782FF32710235A00A992A8 /* RoundUIVisualEffectView.swift in Sources */,
+				B2A6395C27194C5E009281BC /* SwiftSignalR.swift in Sources */,
+				B26E0CE0270B58F1003425CE /* QrScannerViewController.swift in Sources */,
+				B2782FF12710228A00A992A8 /* RoundTextView.swift in Sources */,
+				B2782FFE27116C2B00A992A8 /* NewsCell.swift in Sources */,
+				B26E0CE2270B58F1003425CE /* QRScannerView.swift in Sources */,
+				B2782FEB27100C4800A992A8 /* Key.swift in Sources */,
+				B26E0CDF270B58F1003425CE /* PhoneNumberViewController.swift in Sources */,
+				B2782FF9271154DC00A992A8 /* CallDeviceViewController.swift in Sources */,
+				B2782FF5271025FC00A992A8 /* DetailMessageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28DA179271AF21200834185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28DA180271AF21300834185 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B26E0CBB270B5766003425CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26E0CBC270B5766003425CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B26E0CD3270B58F1003425CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26E0CD4270B58F1003425CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26E0CBF270B5766003425CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B26E0CC0270B5766003425CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26E0CC2270B5766003425CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E84E48C33CF3ED10ED6212 /* Pods-YtemoiTruc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = YtemoiTruc/YtemoiTruc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2GNRFQMMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YtemoiTruc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Trực";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) cần cấp quyền để quét mã QR";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cho phép sử dụng microphone?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytemoi.YtemoiTruc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/YtemoiTruc/Bringing-header/YtemoiTruc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B26E0CC3270B5766003425CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35685CEAC1AD3FEB1725E088 /* Pods-YtemoiTruc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = YtemoiTruc/YtemoiTruc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2GNRFQMMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YtemoiTruc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Trực";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) cần cấp quyền để quét mã QR";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cho phép sử dụng microphone?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytemoi.YtemoiTruc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/YtemoiTruc/Bringing-header/YtemoiTruc-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B28DA186271AF21300834185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2GNRFQMMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomNotificationServicee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CustomNotificationServicee;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytemoi.YtemoiTruc.CustomNotificationServicee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B28DA187271AF21300834185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2GNRFQMMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomNotificationServicee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CustomNotificationServicee;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytemoi.YtemoiTruc.CustomNotificationServicee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26E0CA8270B5764003425CE /* Build configuration list for PBXProject "YtemoiTruc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26E0CBF270B5766003425CE /* Debug */,
+				B26E0CC0270B5766003425CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26E0CC1270B5766003425CE /* Build configuration list for PBXNativeTarget "YtemoiTruc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26E0CC2270B5766003425CE /* Debug */,
+				B26E0CC3270B5766003425CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28DA185271AF21300834185 /* Build configuration list for PBXNativeTarget "CustomNotificationServicee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28DA186271AF21300834185 /* Debug */,
+				B28DA187271AF21300834185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26E0CA5270B5764003425CE /* Project object */;
+}
